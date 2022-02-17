@@ -1,6 +1,6 @@
 function minMax(arr) {
-	let max=-1000;
-	let min=10000;
+	let max=parseInt(Math.random()*-1000000000);
+	let min=parseInt(Math.random()*1000000000)	;
 	arr.forEach((element)=>{
 		if(element<min)
 			{
