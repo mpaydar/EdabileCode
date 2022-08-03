@@ -8,6 +8,9 @@
 # If index<len(l)-1 is placed as first condition, the statement value>l[index+1] will never get evaluated. 
 # This is a very interesting concept that I have learned in the past and thought to mention it so it would be a review for anyone seeing this. 
 
+from matplotlib.pyplot import get
+
+
 list1=[1,2,1,4,5,6]
 def sort_list(l):
     for index,value in enumerate(l):
@@ -18,4 +21,18 @@ def sort_list(l):
     return l
 
 result2=sort_list(list1)
-print(result2)
+# print(result2)
+
+
+
+
+# asceding ordering according to the second element in the tuple
+def get_element(my_tuple):
+    return my_tuple[1]
+
+
+def customize_sorting(my_list):
+     my_list.sort(key=get_element)
+user_tuple=[(1,2),(1,3),(1,1)]
+customize_sorting(user_tuple)
+print(user_tuple)
