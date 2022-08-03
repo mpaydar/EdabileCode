@@ -1,5 +1,6 @@
 
 #list3: 
+# Description of the function: Sorting in ascending order
 # When implementing this function, I tried to use the power of and keyword. When I was trying to put an if condition to avoid out-of-bound error, I used the power of the "and" operator.
 # The general syntax of an if-statement along with logical and, or is as follows: if condition1 and condition2 / if condition1 or condition2
 # We know that as soon as condition1 is false, the second condition2 is not evaluated for "and" operation. 
@@ -21,18 +22,4 @@ def sort_list(l):
     return l
 
 result2=sort_list(list1)
-# print(result2)
-
-
-
-
-# asceding ordering according to the second element in the tuple
-def get_element(my_tuple):
-    return my_tuple[1]
-
-
-def customize_sorting(my_list):
-     my_list.sort(key=get_element)
-user_tuple=[(1,2),(1,3),(1,1)]
-customize_sorting(user_tuple)
-print(user_tuple)
+print(result2)
