@@ -9,4 +9,6 @@ def duplicate_remove(l):
     return list2
 result=duplicate_remove(list1)
 print(result)
-              
+
+
+
