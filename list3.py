@@ -1,5 +1,6 @@
 
 #list3: 
+# Description of the function: Sorting in ascending order
 # When implementing this function, I tried to use the power of and keyword. When I was trying to put an if condition to avoid out-of-bound error, I used the power of the "and" operator.
 # The general syntax of an if-statement along with logical and, or is as follows: if condition1 and condition2 / if condition1 or condition2
 # We know that as soon as condition1 is false, the second condition2 is not evaluated for "and" operation. 
